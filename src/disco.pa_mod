@@ -8,11 +8,11 @@
         "context" : "client",
         "identifier" : "com.pa.domdom.robo_disco",
         "display_name" : "Robo Disco",
-        "description" : "Did someone say disco?",
+        "description" : "There's no stopping this party.",
         "author" : "dom314",
         "version" : "1.0.0",
         "icon": "http://i.imgur.com/lhljUUo.png",
-        "priority": 100
+        "priority": 90
     },
     "mod" : [
         { "from_script" : "/disco.py" }
