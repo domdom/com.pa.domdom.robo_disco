@@ -4,9 +4,9 @@
     "display_name": "Robo Disco",
     "description": "Did someone say disco?",
     "author": "dom314",
-    "version": "0.1.0",
-    "icon": "http://i.imgur.com/k1A2Q53.gif",
+    "version": "1.0.0",
+    "icon": "http://i.imgur.com/lhljUUo.png",
     "priority": 100,
     "build": "82834",
-    "date": "15/06/2015"
+    "date": "16/06/2015"
 }

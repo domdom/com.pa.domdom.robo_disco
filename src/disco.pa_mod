@@ -1,6 +1,6 @@
 {
     "options" : {
-        "debug_mode" : true,
+        "debug_mode" : false,
         "output_dir" : "..",
         "indent" : null
     },
@@ -10,8 +10,8 @@
         "display_name" : "Robo Disco",
         "description" : "Did someone say disco?",
         "author" : "dom314",
-        "version" : "0.1.0",
-        "icon": "http://i.imgur.com/k1A2Q53.gif",
+        "version" : "1.0.0",
+        "icon": "http://i.imgur.com/lhljUUo.png",
         "priority": 100
     },
     "mod" : [
