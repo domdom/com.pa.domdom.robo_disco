@@ -2,12 +2,12 @@
     "context": "client",
     "identifier": "com.pa.domdom.robo_disco",
     "display_name": "Robo Disco",
-    "description": "There's no stopping this party.",
+    "description": "There's no stopping this party. Seriously though, don't install this mod.",
     "author": "dom314",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "forum": "https://forums.uberent.com/threads/rel-client-robo-disco.69070/",
     "icon": "http://i.imgur.com/lhljUUo.png",
     "priority": 90,
-    "build": "82834",
-    "date": "2015/06/17"
+    "build": "83796",
+    "date": "2015/07/09"
 }

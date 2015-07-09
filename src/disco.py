@@ -19,7 +19,7 @@ def rainbow(n, offset=0, scale=1, revs=1, time=1):
         b.append([float(i) / n * time, scale * rgb[2]])
     return (r, g, b)
 
-base_mover = loader.load_json_string("""
+base_mover = loader.loads("""
         {
             "spec" : {
                 "red" : 10,
@@ -49,7 +49,7 @@ base_mover = loader.load_json_string("""
         }
         """)
 
-base_light = loader.load_json_string("""
+base_light = loader.loads("""
         {
             "spec": {
               "shape": "pointlight",
@@ -94,9 +94,9 @@ g = []
 b = []
 for i in range(c+1):
     v = float(i) / c
-    
+
     rgb = colorsys.hsv_to_rgb(v + dt, 1, 1)
-    
+
     r.append([float(i)/c, rgb[0] + 0.6])
     g.append([float(i)/c, rgb[1] + 0.6])
     b.append([float(i)/c, rgb[2] + 0.6])
@@ -123,7 +123,7 @@ base_smoke['emissionRate'] = 40
 
 
 
-base_laser = loader.load_json_string("""
+base_laser = loader.loads("""
         {
             "spec": {
                 "shader": "particle_transparent_lit",
@@ -148,7 +148,7 @@ _laser_origin = (0, 0, 50)
 _laser_origin_vel = (0, 0, 0)
 
 
-base_orb = loader.load_json_string("""{
+base_orb = loader.loads("""{
     "spec": {
         "shader": "particle_clip",
         "shape": "mesh",
@@ -177,7 +177,7 @@ base_orb = loader.load_json_string("""{
     "endDistance": -1
 }""")
 
-base_laser_source = loader.load_json_string("""
+base_laser_source = loader.loads("""
     {
     "spec": {
         "shader": "particle_clip",
@@ -246,7 +246,7 @@ def make_random_laser_group(num=10, radius=500, lifetime=1):
     laser_velocityZ = []
     # actual velocity value
     laser_velocity = []
-    
+
     # choose the laser colors
     laser_red = []
     laser_green = []
@@ -341,14 +341,14 @@ def make_orbs():
     # def rainbow(n, offset=0, scale=1, revs=1, time=1):
     base_orb['red'], base_orb['green'], base_orb['blue'] = c[0]
     # base_orb['red'], base_orb['green'], base_orb['blue'] = rainbow(40, 0, 10, 1, base_orb['emitterLifetime'])
-    
+
     ret = ret + [base_orb]
 
     base_orb['delay'] = 0.25 / base_orb['emissionRate']
     # def rainbow(n, offset=0, scale=1, revs=1, time=1):
     base_orb['red'], base_orb['green'], base_orb['blue'] = c[1]
     # base_orb['red'], base_orb['green'], base_orb['blue'] = rainbow(40, 0.2, 10, 1, base_orb['emitterLifetime'])
-    
+
     ret = ret + [base_orb]
 
     base_orb = copy.deepcopy(base_orb)
@@ -414,9 +414,9 @@ def run():
 
         base_effect['emitters'].append(l)
 
-    
 
-    loader.save_json(base_effect, "comm_trail.json", indent=2)
+
+    loader.dump_effect(base_effect, "comm_trail.json")
     return [
             { "target" : "/comm_trail.json", "destination" : "/mod/disco_trail.json"},
             {
