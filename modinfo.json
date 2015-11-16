@@ -4,10 +4,10 @@
     "display_name": "Robo Disco",
     "description": "There's no stopping this party. Seriously though, don't install this mod.",
     "author": "dom314",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "forum": "https://forums.uberent.com/threads/rel-client-robo-disco.69070/",
     "icon": "http://i.imgur.com/lhljUUo.png",
-    "priority": 90,
-    "build": "83796",
-    "date": "2015/07/09"
+    "priority": 100,
+    "build": "89755",
+    "date": "2015/11/16"
 }
