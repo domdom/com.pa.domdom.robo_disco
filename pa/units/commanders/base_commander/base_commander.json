@@ -160,6 +160,112 @@
       "bone": "socket_leftMuzzle"
     },
     {
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "bone": "bone_root",
+      "type": "idle",
+      "filename": "/mod/disco_trail.json",
+      "orientation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "bone": "bone_root",
+      "type": "idle",
+      "filename": "/mod/disco_trail.json",
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "filename": "/mod/disco_trail.json",
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "type": "idle",
+      "bone": "bone_root",
+      "orientation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "bone": "bone_root",
+      "type": "idle",
+      "filename": "/mod/disco_trail.json",
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "bone": "bone_root",
+      "type": "idle",
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "filename": "/mod/disco_trail.json",
+      "orientation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "idle",
+      "bone": "bone_root",
+      "filename": "/mod/disco_trail.json",
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "bone": "bone_root",
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "filename": "/mod/disco_trail.json",
+      "type": "idle",
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "bone": "bone_root",
       "filename": "/mod/disco_trail.json",
       "offset": [
         0,
@@ -168,6 +274,20 @@
       ],
       "type": "idle",
       "orientation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "filename": "/mod/disco_trail.json",
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "type": "idle",
+      "offset": [
         0,
         0,
         0
@@ -180,14 +300,149 @@
         0,
         0
       ],
+      "type": "idle",
+      "filename": "/mod/disco_trail.json",
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "bone": "bone_root"
+    },
+    {
+      "filename": "/mod/disco_trail.json",
+      "type": "idle",
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "bone": "bone_root"
+    },
+    {
       "filename": "/mod/disco_trail.json",
       "bone": "bone_root",
+      "type": "idle",
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "idle",
+      "filename": "/mod/disco_trail.json",
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "bone": "bone_root",
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "bone": "bone_root",
+      "filename": "/mod/disco_trail.json",
+      "orientation": [
+        0,
+        0,
+        0
+      ],
       "offset": [
         0,
         0,
         0
       ],
       "type": "idle"
+    },
+    {
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "bone": "bone_root",
+      "filename": "/mod/disco_trail.json",
+      "type": "idle"
+    },
+    {
+      "bone": "bone_root",
+      "filename": "/mod/disco_trail.json",
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "type": "idle",
+      "orientation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "type": "idle",
+      "bone": "bone_root",
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "filename": "/mod/disco_trail.json"
+    },
+    {
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "bone": "bone_root",
+      "type": "idle",
+      "filename": "/mod/disco_trail.json",
+      "orientation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "filename": "/mod/disco_trail.json",
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "bone": "bone_root",
+      "type": "idle",
+      "offset": [
+        0,
+        0,
+        0
+      ]
     }
   ],
   "audio": {
