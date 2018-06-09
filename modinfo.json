@@ -4,18 +4,19 @@
     "display_name": "Robo Disco",
     "description": "There's no stopping this party. Seriously though, don't install this mod.",
     "author": "dom314",
-    "version": "1.0.4",
+    "signature": " ",
+    "version": "1.0.5",
     "product": [
         "Titans",
         "Classic"
     ],
     "category": [
-        "in-game",
+        "gameplay",
         "effects"
     ],
     "forum": "https://forums.uberent.com/threads/rel-client-robo-disco.69070/",
     "icon": "http://i.imgur.com/lhljUUo.png",
     "priority": 100,
     "build": "89755",
-    "date": "2016/01/09"
+    "date": "2018-05-09"
 }
